@@ -1,9 +1,9 @@
 import mongoose from 'mongoose';
 
-import { dbURL } from '../config/environment.js';
+import { DB_URI } from '../config/environment.js';
 
 export function connectToDb() {
-  return mongoose.connect(dbURL);
+  return mongoose.connect(DB_URI);
 }
 
 export function disconnectDb() {
