@@ -1,0 +1,30 @@
+{
+  "name": "ga-project-3-api",
+  "version": "1.0.0",
+  "description": "This is the api for project-3",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:server": "npx nodemon server.js",
+    "seed": "node db/seed.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Karim999999999/ga-project-3-api.git"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Karim999999999/ga-project-3-api/issues"
+  },
+  "homepage": "https://github.com/Karim999999999/ga-project-3-api#readme"
+}
